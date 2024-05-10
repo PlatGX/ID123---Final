@@ -331,7 +331,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5193265336241426454}
   m_Layer: 0
-  m_Name: TurretLocation
+  m_Name: 1TurretLocation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1629,9 +1629,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5193265336241426454}
     m_Modifications:
+    - target: {fileID: 1220301485174268, guid: aaad727b67e004b408be5595d3d8a829, type: 3}
+      propertyPath: m_Name
+      value: 4TurretModel
+      objectReference: {fileID: 0}
     - target: {fileID: 1420827811599730, guid: aaad727b67e004b408be5595d3d8a829, type: 3}
       propertyPath: m_Name
-      value: Turret
+      value: 2EmptyPivot
       objectReference: {fileID: 0}
     - target: {fileID: 4136592400650912, guid: aaad727b67e004b408be5595d3d8a829, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1672,6 +1676,10 @@ PrefabInstance:
     - target: {fileID: 4136592400650912, guid: aaad727b67e004b408be5595d3d8a829, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 14960692687290961, guid: aaad727b67e004b408be5595d3d8a829, type: 3}
+      propertyPath: m_Name
+      value: 3rayEmitter
       objectReference: {fileID: 0}
     - target: {fileID: 1962099909581058365, guid: aaad727b67e004b408be5595d3d8a829, type: 3}
       propertyPath: playerObj.Array.data[0]
